@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>DaSiCo</title>
+    <style>
+        .lang-switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .lang-switch button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .lang-switch img {
+            width: 32px;
+            height: 22px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
+    <div class="lang-switch">
+        <button onclick="window.location.href='index.html'">
+            <img src="https://flagcdn.com/nl.svg" alt="Nederlands">
+        </button>
+    </div>
+
     <h1>DaSiCo</h1>
     <p>We create educational videos.</p>
-
-    <!-- Taal-knop -->
-    <a href="index.html">NL</a>
 </body>
 </html>
+
